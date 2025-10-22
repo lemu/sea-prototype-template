@@ -1,6 +1,40 @@
-# React + TypeScript + Vite
+# Sea Prototype Template
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React library template configured for rapid prototyping with modern tooling.
+
+## Tech Stack
+
+- React 19.1.1 + TypeScript project using Vite 7.1.7
+- Git repository with initial commits
+- Tailwind CSS v4 with Vite plugin
+- React Router v7
+- Library mode configuration
+
+## Features
+
+This template provides a complete setup for building React component libraries with:
+- Hot Module Replacement (HMR) for fast development
+- TypeScript support with declaration file generation
+- Tailwind CSS v4 for styling
+- React Router v7 for routing
+- ES and UMD module outputs
+- ESLint configuration
+
+## Getting Started
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build library for distribution
+npm run build
+
+# Run linter
+npm run lint
+```
 
 Currently, two official plugins are available:
 
