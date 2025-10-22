@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Button } from '@rafal.lemieszewski/tide-ui'
 import seaLogo from './assets/sea.svg'
 
 function App() {
@@ -13,9 +14,9 @@ function App() {
       </div>
       <h1>SEA Prototype Template</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
+        <Button onClick={() => setCount((count) => count + 1)}>
           count is {count}
-        </button>
+        </Button>
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
