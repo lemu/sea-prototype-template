@@ -1,22 +1,8 @@
 {
   "name": "sea-prototype-template",
-  "private": false,
+  "private": true,
   "version": "0.0.1",
   "type": "module",
-  "main": "./dist/sea-prototype-template.umd.js",
-  "module": "./dist/sea-prototype-template.es.js",
-  "types": "./dist/index.d.ts",
-  "exports": {
-    ".": {
-      "import": "./dist/sea-prototype-template.es.js",
-      "require": "./dist/sea-prototype-template.umd.js",
-      "types": "./dist/index.d.ts"
-    },
-    "./style.css": "./dist/style.css"
-  },
-  "files": [
-    "dist"
-  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
@@ -24,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@rafal.lemieszewski/tide-ui": "^0.31.0",
+    "@rafal.lemieszewski/tide-ui": "^0.33.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-router": "^7.9.4",
