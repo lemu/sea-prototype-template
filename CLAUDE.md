@@ -11,7 +11,7 @@ A React library template configured for rapid prototyping with modern tooling an
 - **Vite 7.1.7** - Fast build tool and dev server
 - **Tailwind CSS v4** - Utility-first CSS framework
 - **React Router v7** - Client-side routing
-- **Tide UI v0.30.1** - Tide UI component library (@rafal.lemieszewski/tide-ui)
+- **Tide UI v0.38.1** - Tide UI component library (@rafal.lemieszewski/tide-ui)
 
 ## UI Component Guidelines
 
@@ -107,6 +107,27 @@ export function UserProfileCard({ user }) {
   );
 }
 ```
+
+## Maintenance Guidelines
+
+### Updating Tide UI Version
+
+**IMPORTANT:** When updating the `@rafal.lemieszewski/tide-ui` package version, you MUST also update the version number in:
+
+1. **README.md** - Update the "Tide UI" version in the Tech Stack section
+2. **CLAUDE.md** - Update the "Tide UI" version in the Tech Stack section (this file)
+
+**Workflow:**
+```bash
+# 1. Update package.json version
+npm install @rafal.lemieszewski/tide-ui@latest
+
+# 2. Update README.md Tech Stack section
+# 3. Update CLAUDE.md Tech Stack section
+# 4. Commit all changes together
+```
+
+This ensures documentation stays in sync with the actual installed version.
 
 ## Browser Compatibility Guidelines
 
