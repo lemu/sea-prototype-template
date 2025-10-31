@@ -11,7 +11,7 @@ A React library template configured for rapid prototyping with modern tooling an
 - **Vite 7.1.7** - Fast build tool and dev server
 - **Tailwind CSS v4** - Utility-first CSS framework
 - **React Router v7** - Client-side routing
-- **Tide UI v0.38.1** - Tide UI component library (@rafal.lemieszewski/tide-ui)
+- **Tide UI v0.41.2** - Tide UI component library (@rafal.lemieszewski/tide-ui)
 
 ## UI Component Guidelines
 
