@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { Button, TextLink, Card } from "@rafal.lemieszewski/tide-ui";
+import { Button, Card } from "@rafal.lemieszewski/tide-ui";
 import seaLogo from "./assets/sea.svg";
 
 function App() {
@@ -22,8 +22,8 @@ function App() {
           <p>
             Edit <code>src/App.tsx</code> and save to test HMR
           </p>
-          <Link to="/section">
-            <TextLink>Go to /section</TextLink>
+          <Link to="/home" className="text-[var(--color-text-brand)] hover:underline">
+            Go to Home
           </Link>
         </div>
       </Card>
