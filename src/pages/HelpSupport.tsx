@@ -3,13 +3,13 @@ import { AppFrame } from '../components/AppFrame';
 function HelpSupport() {
   return (
     <AppFrame>
-      <div className="m-6 flex flex-col gap-[var(--space-lg)]">
+      <div className="m-6 flex flex-col gap-[var(--space-l)]">
         {/* Page Header */}
-        <div className="flex flex-col gap-[var(--space-sm)]">
+        <div className="flex flex-col gap-[var(--space-s)]">
           <h1 className="text-heading-lg">Help & Support</h1>
         </div>
 
-        <div className="rounded-lg border border-[var(--color-border-primary-subtle)] p-6">
+        <div className="rounded-l border border-[var(--color-border-primary-subtle)] p-6">
           <p className="text-body-md text-[var(--color-text-secondary)]">
             Help and support resources will be implemented here.
           </p>
