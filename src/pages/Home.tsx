@@ -23,8 +23,8 @@ function Home() {
               <p className="text-caption-sm text-[var(--color-text-secondary)]">
                 Quick links:
               </p>
-              <Link to="/freight-planner" className="text-[var(--color-text-brand)] hover:underline">
-                → Freight Planner
+              <Link to="/voyage-economics" className="text-[var(--color-text-brand)] hover:underline">
+                → Voyage Economics
               </Link>
               <Link to="/agreements" className="text-[var(--color-text-brand)] hover:underline">
                 → Agreements
