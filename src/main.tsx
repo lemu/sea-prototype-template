@@ -21,7 +21,6 @@ import GlobalMarket from './pages/GlobalMarket.tsx'
 import GlobalMarketSupply from './pages/GlobalMarketSupply.tsx'
 import GlobalMarketCommodities from './pages/GlobalMarketCommodities.tsx'
 import GlobalMarketFreight from './pages/GlobalMarketFreight.tsx'
-import GlobalMarketRoutes from './pages/GlobalMarketRoutes.tsx'
 import Assets from './pages/Assets.tsx'
 import AssetsVessels from './pages/AssetsVessels.tsx'
 import AssetsFleets from './pages/AssetsFleets.tsx'
@@ -108,11 +107,6 @@ const router = createBrowserRouter([
     path: '/global-market/freight',
     element: <GlobalMarketFreight />,
     handle: { crumb: () => 'Freight' },
-  },
-  {
-    path: '/global-market/routes',
-    element: <GlobalMarketRoutes />,
-    handle: { crumb: () => 'Routes' },
   },
   {
     path: '/assets',

@@ -82,7 +82,6 @@ export const getSidebarData = (currentPath: string): AppFrameNavigationData => {
           { title: 'Supply', url: '/global-market/supply', isActive: currentPath === '/global-market/supply' },
           { title: 'Commodities', url: '/global-market/commodities', isActive: currentPath === '/global-market/commodities' },
           { title: 'Freight', url: '/global-market/freight', isActive: currentPath === '/global-market/freight' },
-          { title: 'Routes', url: '/global-market/routes', isActive: currentPath === '/global-market/routes' },
         ],
       },
       {
