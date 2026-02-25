@@ -49,9 +49,9 @@ const router = createBrowserRouter([
   },
   // Operations
   {
-    path: '/freight-planner',
+    path: '/voyage-economics',
     element: <FreightPlanner />,
-    handle: { crumb: () => 'Freight planner' },
+    handle: { crumb: () => 'Voyage economics' },
   },
   {
     path: '/trade-desk',
