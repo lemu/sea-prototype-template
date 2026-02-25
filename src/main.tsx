@@ -9,7 +9,7 @@ import Boards from './pages/Boards.tsx'
 import UserProfile from './pages/UserProfile.tsx'
 import OrganizationSettings from './pages/OrganizationSettings.tsx'
 // Operations
-import FreightPlanner from './pages/FreightPlanner.tsx'
+import VoyageEconomics from './pages/VoyageEconomics.tsx'
 import TradeDesk from './pages/TradeDesk.tsx'
 import AgreementsContracts from './pages/AgreementsContracts.tsx'
 import AgreementsRecaps from './pages/AgreementsRecaps.tsx'
@@ -50,7 +50,7 @@ const router = createBrowserRouter([
   // Operations
   {
     path: '/voyage-economics',
-    element: <FreightPlanner />,
+    element: <VoyageEconomics />,
     handle: { crumb: () => 'Voyage economics' },
   },
   {
