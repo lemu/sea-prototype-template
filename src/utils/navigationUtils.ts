@@ -18,7 +18,7 @@ export const getSidebarData = (currentPath: string): AppFrameNavigationData => {
     ],
     operations: [
       {
-        title: 'Freight planner',
+        title: 'Voyage economics',
         icon: 'ship',
         url: '/freight-planner',
         isActive: currentPath === '/freight-planner',
