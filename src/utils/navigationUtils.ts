@@ -1,3 +1,4 @@
+import { Map } from 'lucide-react';
 import type { AppFrameNavigationData } from '@rafal.lemieszewski/tide-ui';
 
 export const getSidebarData = (currentPath: string): AppFrameNavigationData => {
@@ -69,7 +70,7 @@ export const getSidebarData = (currentPath: string): AppFrameNavigationData => {
     intelligence: [
       {
         title: 'SeaNet',
-        icon: 'map',
+        icon: Map,
         url: '/seanet',
         isActive: currentPath === '/seanet',
       },
