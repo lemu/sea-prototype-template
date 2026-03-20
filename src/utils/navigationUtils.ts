@@ -1,5 +1,5 @@
 import { Map } from 'lucide-react';
-import type { AppFrameNavigationData } from '@rafal.lemieszewski/tide-ui';
+import type { AppFrameNavigationData } from '@lemu/tide-ui';
 
 export const getSidebarData = (currentPath: string): AppFrameNavigationData => {
   return {

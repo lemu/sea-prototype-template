@@ -11,13 +11,13 @@ A React library template configured for rapid prototyping with modern tooling an
 - **Vite 7.1.7** - Fast build tool and dev server
 - **Tailwind CSS v4** - Utility-first CSS framework
 - **React Router v7** - Client-side routing
-- **Tide UI v0.88.2** - Tide UI component library (@rafal.lemieszewski/tide-ui)
+- **Tide UI v0.91.0** - Tide UI component library (@lemu/tide-ui)
 
 ## UI Component Guidelines
 
 ### Prefer Tide UI Components
 
-When creating UI elements, **always prefer components from `@rafal.lemieszewski/tide-ui`** over custom implementations or other libraries.
+When creating UI elements, **always prefer components from `@lemu/tide-ui`** over custom implementations or other libraries.
 
 **✅ Preferred:**
 
@@ -30,7 +30,7 @@ import {
   Avatar,
   Icon,
   Badge,
-} from "@rafal.lemieszewski/tide-ui";
+} from "@lemu/tide-ui";
 ```
 
 **❌ Avoid:**
@@ -47,7 +47,7 @@ When adding icons to buttons, **always use the `icon` and `iconPosition` props**
 **❌ Incorrect:**
 
 ```typescript
-import { Button, Icon } from "@rafal.lemieszewski/tide-ui";
+import { Button, Icon } from "@lemu/tide-ui";
 
 <Button>
   <Icon name="x" />
@@ -57,7 +57,7 @@ import { Button, Icon } from "@rafal.lemieszewski/tide-ui";
 **✅ Correct:**
 
 ```typescript
-import { Button } from "@rafal.lemieszewski/tide-ui";
+import { Button } from "@lemu/tide-ui";
 
 // Icon with text
 <Button icon="anchor" iconPosition="left">
@@ -94,7 +94,7 @@ Only create custom components when:
 
 ```typescript
 // UserProfileCard.tsx - Business-specific composite
-import { Card, CardContent, Avatar, Button } from "@rafal.lemieszewski/tide-ui";
+import { Card, CardContent, Avatar, Button } from "@lemu/tide-ui";
 
 export function UserProfileCard({ user }) {
   return (
@@ -112,7 +112,7 @@ export function UserProfileCard({ user }) {
 
 ### Updating Tide UI Version
 
-**IMPORTANT:** When updating the `@rafal.lemieszewski/tide-ui` package version, you MUST also update the version number in:
+**IMPORTANT:** When updating the `@lemu/tide-ui` package version, you MUST also update the version number in:
 
 1. **README.md** - Update the "Tide UI" version in the Tech Stack section
 2. **CLAUDE.md** - Update the "Tide UI" version in the Tech Stack section (this file)
@@ -120,7 +120,7 @@ export function UserProfileCard({ user }) {
 **Workflow:**
 ```bash
 # 1. Update package.json version
-npm install @rafal.lemieszewski/tide-ui@latest
+npm install @lemu/tide-ui@latest
 
 # 2. Update README.md Tech Stack section
 # 3. Update CLAUDE.md Tech Stack section

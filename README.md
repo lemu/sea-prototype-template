@@ -9,7 +9,29 @@ A React library template configured for rapid prototyping with modern tooling fo
 - **Vite 7.1.7** - Fast build tool and dev server
 - **Tailwind CSS v4** - Utility-first CSS framework
 - **React Router v7** - Client-side routing
-- **Tide UI v0.88.2** - Tide UI component library (@rafal.lemieszewski/tide-ui)
+- **Tide UI v0.91.0** - Tide UI component library (@lemu/tide-ui), hosted on GitHub Packages
+
+## Setup
+
+### GitHub Packages Authentication
+
+Tide UI is published as a private package on [GitHub Packages](https://github.com/features/packages). To install dependencies, you need to authenticate:
+
+1. Ensure you're logged in to the GitHub CLI with the `read:packages` scope:
+   ```bash
+   gh auth login
+   gh auth refresh -s read:packages
+   ```
+
+2. Set the auth token in the project `.npmrc`:
+   ```bash
+   npm config set //npm.pkg.github.com/:_authToken $(gh auth token) --location=project
+   ```
+
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
 
 ## Features
 

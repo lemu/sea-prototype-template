@@ -1,5 +1,5 @@
 import { Link } from 'react-router';
-import { Card } from '@rafal.lemieszewski/tide-ui';
+import { Card } from '@lemu/tide-ui';
 import { AppFrame } from '../components/AppFrame';
 
 function Home() {

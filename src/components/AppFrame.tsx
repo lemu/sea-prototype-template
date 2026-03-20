@@ -1,5 +1,5 @@
 import { useLocation, useNavigate } from 'react-router';
-import { AppFrame as TideAppFrame, Breadcrumb, BreadcrumbList } from '@rafal.lemieszewski/tide-ui';
+import { AppFrame as TideAppFrame, Breadcrumb, BreadcrumbList } from '@lemu/tide-ui';
 import { DynamicBreadcrumbs } from './DynamicBreadcrumbs';
 import { getSidebarData } from '../utils/navigationUtils';
 

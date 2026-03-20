@@ -5,7 +5,7 @@ import {
   BreadcrumbLink,
   BreadcrumbPage,
   BreadcrumbSeparator,
-} from '@rafal.lemieszewski/tide-ui';
+} from '@lemu/tide-ui';
 import type { Crumb } from '../types/navigation';
 
 /**

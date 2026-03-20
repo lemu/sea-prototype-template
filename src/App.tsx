@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { Button, Card } from "@rafal.lemieszewski/tide-ui";
+import { Button, Card } from "@lemu/tide-ui";
 import seaLogo from "./assets/sea.svg";
 
 function App() {
